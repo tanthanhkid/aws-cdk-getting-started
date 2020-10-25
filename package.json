@@ -1,8 +1,8 @@
 {
-  "name": "getting started",
+  "name": "getting-started",
   "version": "0.1.0",
   "bin": {
-    "getting started": "bin/getting started.js"
+    "getting started": "bin/getting-started.js"
   },
   "scripts": {
     "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
@@ -15,6 +15,7 @@
     "jest": "^26.4.2"
   },
   "dependencies": {
+    "@aws-cdk/aws-s3": "^1.70.0",
     "@aws-cdk/core": "1.70.0"
   }
 }
